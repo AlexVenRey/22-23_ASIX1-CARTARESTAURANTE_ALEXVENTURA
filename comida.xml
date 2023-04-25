@@ -1,0 +1,103 @@
+<!-- Entrantes -->
+
+<platos>
+  <entrantes nombre="Ensalada" precio="4.00" descripcion="Ensalada con pollo, picatostes, salsa césar, queso y tomate." caracteristicas="" kcal="500">
+    <ingrediente nombre="Lechuga"/>
+    <ingrediente nombre="Frutos secos"/>
+    <ingrediente nombre="Salsa césar"/>
+    <ingrediente nombre="Vinagre"/>
+    <ingrediente nombre="Verduras"/>
+  </entrantes>
+  <entrantes nombre="Pinchos" precio="6.00" descripcion="Una deliciosa comida que consiste en pequeñas porciones de alimentos ensartados en brochetas." caracteristicas="" kcal="400">
+    <ingrediente nombre="Carne"/>
+    <ingrediente nombre="Queso"/>
+    <ingrediente nombre="Salsas"/>
+    <ingrediente nombre="Mariscos"/>
+  </entrantes>
+  <entrantes nombre="Calamares a la romana" precio="5.50" descripcion="Un plato típico de la cocina mediterránea." caracteristicas="" kcal="350">
+    <ingrediente nombre="Calamares limpios"/>
+    <ingrediente nombre="Aceite de oliva"/>
+    <ingrediente nombre="Limón"/>
+    <ingrediente nombre="Albahaca"/>
+    <ingrediente nombre="Harina"/>
+  </entrantes>
+  <entrantes nombre="Croquetas de jamón" precio="5.00" descripcion="Croquetas de jamón ibérico caseras, un clásico de la cocina española." caracteristica="" kcal="400">
+    <ingrediente nombre="Jamón ibérico"/>
+    <ingrediente nombre="Harina"/>
+    <ingrediente nombre="Mantequilla"/>
+    <ingrediente nombre="Leche entera"/>
+    <ingrediente nombre="Huevo batido"/>
+  </entrantes>
+  <entrantes nombre="Patatas bravas" precio="5.00" descripcion="Las patatas bravas son un aperitivo deliciosio para tomar antes del primer plato." caracteristica="" kcal="450">
+    <ingrediente nombre="Patatas"/>
+    <ingrediente nombre="Sal"/>
+    <ingrediente nombre="Aceite de oliva"/>
+    <ingrediente nombre="Salsa"/>
+    <ingrediente nombre="Aceite de oliva"/>
+  </entrantes>
+
+<!-- Bocadillos -->
+
+  <bocadillos nombre="Bocadillo de pollo a la parrilla" precio="6.00" descripcion="El bocadillo de pollo a la parrilla es una opción clásica y deliciosa que se prepara con una pechuga de pollo a la parrilla para dar un sabor excepcional." caracteristica="" kcal="500">
+    <ingrediente nombre="Pan"/>
+    <ingrediente nombre="Pollo"/>
+    <ingrediente nombre="Aceite de oliva"/>
+    <ingrediente nombre="Lechuga"/>
+  </bocadillos>
+  <bocadillos nombre="Bocadillo de queso a la parrilla" precio="6.00" descripcion="El Bocadillo de queso a la parrilla es un clásico sándwich caliente que se prepara con pan de molde y queso derretido en su interior." caracteristica="" kcal="550">
+    <ingrediente nombre="Pan"/>
+    <ingrediente nombre="Queso cheddar"/>
+    <ingrediente nombre="Mantequilla"/>
+  </bocadillos>
+  <bocadillos nombre="Bocadillo de carne deshebrada" precio="6.00" descripcion="El bocadillo de carne deshebrada es una deliciosa opción de sándwich." caracteristica="" kcal="700">
+    <ingrediente nombre="Pan"/>
+    <ingrediente nombre="Carne deshebrada"/>
+    <ingrediente nombre="Cebolla"/>
+    <ingrediente nombre="Salsa barbacoa"/>
+  </bocadillos>
+  <bocadillos nombre="Bocadillo de falafel" precio="5.50" descripcion="El bocadillo de falafel, un sándwich popular en la comida mediterránea y árabe." caracteristica="" kcal="750">
+    <ingrediente nombre="Pan árabe"/>
+    <ingrediente nombre="Falafel"/>
+    <ingrediente nombre="Hummus"/>
+    <ingrediente nombre="Ensalada"/>
+  </bocadillos>
+  <bocadillos nombre="Bocadillo de jamón serrano y queso manchego" precio="6.00" descripcion="El bocadillo de jamón serrano y queso manchego es un sándwich clásico de la gastronomía española." caracteristica="" kcal="600">
+    <ingrediente nombre="Pan"/>
+    <ingrediente nombre="Jamón"/>
+    <ingrediente nombre="Queso manchego"/>
+    <ingrediente nombre="Tomate"/>
+  </bocadillos>
+
+<!-- Postres -->
+
+  <postres nombre="Tarta de queso" precio="5.00" descripcion="La tarta de queso es un postre delicioso y cremoso" caracteristica="" kcal="650">
+    <ingrediente nombre="Mantequilla"/>
+    <ingrediente nombre="Azúcar"/>
+    <ingrediente nombre="Huevos"/> 
+    <ingrediente nombre="Crema agria o nata"/>
+    <ingrediente nombre="Harina de trigo"/>
+  </postres>
+  <postres nombre="Flan" precio="3.50" descripcion="El flan es un postre suave y dulce hecho con huevos, leche, azúcar y a menudo se saboriza con vainilla." caracteristica="" kcal="100">
+    <ingrediente nombre="Huevos"/>
+    <ingrediente nombre="Esencia de vainilla"/>
+    <ingrediente nombre="Azúcar"/>
+  </postres>
+    <postres nombre="Crema catalana" precio="5.50" descripcion="La crema catalana es un postre típico de la cocina española hecho con crema pastelera" caracteristica="" kcal="350">
+    <ingrediente nombre="Helado de vainilla"/>
+    <ingrediente nombre="Coulant de chocoalte"/>
+    <ingrediente nombre="Nata montada"/>
+  </postres>
+    <postres nombre="Helado de vainilla" precio="3.50" descripcion="El helado de vainilla es uno de los sabores más populares de helado." caracteristica="" kcal="400">
+    <ingrediente nombre="Leche entera"/>
+    <ingrediente nombre="Nata"/>
+    <ingrediente nombre="Yemas de huevo"/>
+    <ingrediente nombre="Azúcar"/>
+  </postres>
+    <postres nombre="Brownie de chocolate" precio="4.00" descripcion="El brownie de chocolate es un postre rico y decadente hecho con chocolate, mantequilla, azúcar, huevos y harina." caracteristica="" kcal="450">
+    <ingrediente nombre="Chocolate negro"/>
+    <ingrediente nombre="Mantequilla"/>
+    <ingrediente nombre="Azúcar"/>
+    <ingrediente nombre="Harina"/>
+    <ingrediente nombre="Huevos"/>
+  </postres>
+</platos>

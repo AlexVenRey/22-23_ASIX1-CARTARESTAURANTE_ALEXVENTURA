@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Montserrat:wght@100&family=Pathway+Extreme:wght@100&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Montserrat:wght@100&family=Oswald:wght@200&family=Pathway+Extreme:wght@100&family=Ubuntu:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;  color: black;
+}
+
+body {
+  background-image: url('./img/fondo.jpg');
+  color: black;
+}
+
+h1{
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Bruno Ace', cursive;
+}
+
+h2{
+  color: black;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+}
+
+p{ 
+  font-size: 20px;
+  color:black;
+  text-align: justify;
+}
+
+.column-3{
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.borde-entrantes{
+  border: 3px solid black;
+}
+
+.borde-bocadillos{
+  border: 3px solid black;
+}
+
+.borde-postres{
+  border: 3px solid black;
+}
+
+.menu-restaurante{
+  text-align: center;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  display: flex;
+  flex-flow: column;
+  min-height: 200px;
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+  font-size: 30px;
+  }
+  
+  h2.menu-restaurante {
+  font-size: 24px;
+  }
+  
+  p.menu-restaurante {
+  font-size: 16px;
+  }
+  
+  .column-3 {
+  grid-template-columns: repeat(2,1fr);
+  }
+  
+  .menu-restaurante {
+  min-height: 150px;
+  }
+}
+
+
+/* .menu-restaurante */
